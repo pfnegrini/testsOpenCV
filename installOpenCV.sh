@@ -12,3 +12,5 @@ cd release
 ccmake ../
 make
 sudo make install
+
+sudo npm install opencv -g
