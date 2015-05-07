@@ -1,0 +1,32 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '/peterbraden/node-opencv' ]
+2 info using npm@2.9.0
+3 info using node@v0.12.0
+4 verbose install initial load of /home/pi/examples/package.json
+5 verbose readDependencies loading dependencies from /home/pi/examples/package.json
+6 silly cache add args [ '/peterbraden/node-opencv', null ]
+7 verbose cache add spec /peterbraden/node-opencv
+8 silly cache add parsed spec { raw: '/peterbraden/node-opencv',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: '/peterbraden/node-opencv',
+8 silly cache add   spec: '/peterbraden/node-opencv',
+8 silly cache add   type: 'local' }
+9 error addLocal Could not install /peterbraden/node-opencv
+10 verbose stack Error: ENOENT, open '/peterbraden/node-opencv'
+10 verbose stack     at Error (native)
+11 verbose cwd /home/pi/examples
+12 error Linux 3.18.10-v7+
+13 error argv "node" "/usr/local/bin/npm" "install" "/peterbraden/node-opencv"
+14 error node v0.12.0
+15 error npm  v2.9.0
+16 error path /peterbraden/node-opencv
+17 error code ENOENT
+18 error errno -2
+19 error enoent ENOENT, open '/peterbraden/node-opencv'
+19 error enoent This is most likely not a problem with npm itself
+19 error enoent and is related to npm not being able to find a file.
+20 verbose exit [ -2, true ]
